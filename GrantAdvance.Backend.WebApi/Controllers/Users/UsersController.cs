@@ -7,7 +7,7 @@ namespace GrantAdvance.Backend.WebApi.Controllers.Users;
 
 public sealed class UsersController : ApiControllerBase
 {
-    public UsersController(ISender _sender) : base(_sender)
+    public UsersController(ISender sender) : base(sender)
     {
     }
 
